@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughtful</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Thoughtful</h1>
+        <ul class="login-links">
+            <li>Sign in</li> 
+            <li>Sign up </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="thought-form-container">
+            <h3>Post your thought here...</h3>
+                <form id="thought-input-form">
+                    <textarea id="thought-text" placeholder="What are you thinking right now..?" data-limit="300"></textarea>
+                <div class="options-container">
+                    <label for ="anon-checkbox">Write anonymously</label>
+                    <input type="checkbox" id="anon-checkbox" value="anonymous">
+                    <input type="submit" class="post-submit"></div>
+                </div>
+                </form>                
+        </div>
+
+        <div class="thought-page">
+            <div class="thought-post">
+                <h3>Lorem ipsum, dolor sit amet</h3>
+                <div class="days-ago-posted">
+                    2 days ago
+                </div>
+                <div class="post-content">
+                    Lorem ipsum, dolor sit amet
+                </div>
+                <div class="post-options-container">
+                    <p>Like</p>
+                    <p>Dislike</p>
+                <div class="post-reply">
+                    <label for ="thought-reply-text">Reply</label><br>
+                    <textarea id="thought-reply-text" placehodler="Reply to this thought" data-limit="300"></textarea><br>  
+                    <input type="submit" class="reply-post submit"></submit>
+                </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+</html>
