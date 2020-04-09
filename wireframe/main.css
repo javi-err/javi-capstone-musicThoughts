@@ -43,9 +43,20 @@ main {
     margin-left: 500px; 
 }
 
+.thought-form-container {
+    background-color: gainsboro;
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 .thought-page {
     background-color: lightgrey;   
     width: 60%;
     padding: 20px;
 }
 
+.post-comments {
+    background-color: white;
+    width: 100%;
+}

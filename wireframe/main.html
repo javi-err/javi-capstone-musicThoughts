@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thoughtful</title>
+    <title>MusicThoughts</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <h1>Thoughtful</h1>
-        <ul class="login-links">
-            <li>Sign in</li> 
-            <li>Sign up </li>
-        </ul>
+        <h1>MusicThoughts</h1>
     </header>
 
     <main>
         <div class="thought-form-container">
-            <h3>Post your thought here...</h3>
+            <h3>Post your MusicThought here...</h3>
                 <form id="thought-input-form">
-                    <textarea id="thought-text" placeholder="What are you thinking right now..?" data-limit="300"></textarea>
+                    <textarea id="thought-text" placeholder="What are you thinking right now..?" data-limit="300"></textarea><br>
+                    <label for ="select-genre">Select Genre</label>
+                    <select id = "select-genre">
+                      <option value = "1">Lorem</option>
+                      <option value = "2">Ipsum</option>
+                      <option value = "3">Lorem</option>
+                      <option value = "4">Ipsom</option>
+                    </select>
                 <div class="options-container">
-                    <label for ="anon-checkbox">Write anonymously</label>
-                    <input type="checkbox" id="anon-checkbox" value="anonymous">
                     <input type="submit" class="post-submit"></div>
                 </div>
                 </form>                
@@ -44,6 +45,15 @@
                     <label for ="thought-reply-text">Reply</label><br>
                     <textarea id="thought-reply-text" placehodler="Reply to this thought" data-limit="300"></textarea><br>  
                     <input type="submit" class="reply-post submit"></submit>
+                </div>
+                <div class="post-comments">
+                    <h3>Comments</h3>
+                    <div class="days-ago-posted">
+                        2 days ago 
+                    </div>
+                    <div class="reply-comment">
+                        Lorem ipsum, dolor sit amet
+                    </div>
                 </div>
                 </div>
 
