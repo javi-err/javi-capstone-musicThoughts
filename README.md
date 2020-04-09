@@ -1,1 +1,0 @@
-# javi-capstone-thoughtful
